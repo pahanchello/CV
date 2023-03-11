@@ -1,0 +1,101 @@
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding-top: 10px;
+}
+
+.leftWrapper {
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+}
+
+.rightWrapper {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin-left: 50px;
+}
+
+.pic {
+    width: 200px;
+    height: 200px;
+}
+
+.title {
+    color: rgb(68, 113, 137);
+    font-size: 13px;
+}
+
+.text {
+    font-size: 11px;
+}
+
+.link {
+    text-decoration: none;
+    color: rgb(184, 91, 34);
+}
+
+.titleTop {
+    font-size: 28px;
+    font-weight: 100;
+    text-transform: uppercase;
+    margin-top: 50px;
+    margin-bottom: 5px;
+}
+
+.titleBottom {
+    font-size: 16px;
+    margin-bottom: 78px;
+}
+
+.titleRight {
+    font-size: 13px;
+    margin-bottom: 2px;
+}
+
+.line {
+    width: 300px;
+    height: 1px;
+    background-color: rgb(98, 148, 176);
+}
+
+.titleText {
+    font-size: 11px;
+    margin-bottom: 0;
+}
+
+.textRight {
+    font-size: 11px;
+    margin-top: 3px;
+}
+
+.wrap {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 300px;
+}
+
+.left {
+    width: 30%;
+    margin-left: 10px;
+    font-size: 11px;
+}
+
+.right {
+    width: 70%;
+    font-size: 11px;
+}
+
+@media(max-width: 700px) {
+    .pic {
+        width: 150px;
+        height: 150px;
+    }
+
+    .titleBottom {
+        margin-bottom: 28px;
+    }
+}
